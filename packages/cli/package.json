@@ -1,6 +1,6 @@
 {
   "name": "jscanvas",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jscanvas/local-client": "^1.0.0"
+    "@jscanvas/local-client": "^2.0.0"
   },
   "devDependencies": {
-    "@jscanvas/local-api": "^1.0.0",
+    "@jscanvas/local-api": "^2.0.0",
     "@types/node": "^20.3.2",
     "commander": "^11.0.0",
     "esbuild": "0.8.26",
