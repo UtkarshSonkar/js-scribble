@@ -33,7 +33,7 @@ Built interactive coding environment using React/Redux. In this, we can write Ja
 - Re-order or delete cells using the top right buttons in cells.
 - Add new cells by hovering on the divider between each cell.
 
-All of the changes get saved to the file opened JScanvas with. So if \`npx jscanvas @usonkar test.js\` is run, then all of the text and code written will be saved to \`test.js\` file.`;
+All of the changes get saved to the file opened JScanvas with. So if \`npx js-scribble @usonkar test.js\` is run, then all of the text and code written will be saved to \`test.js\` file.`;
         const codeCounterString = `import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
