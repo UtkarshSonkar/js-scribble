@@ -86,7 +86,6 @@ printArray(arr, n);`;
             if (isLocalApiError(err)) {
                 if (err.code === "ENOENT") {
                     yield promises_1.default.writeFile(fullPath, JSON.stringify(initailCell), "utf-8");
-                    console.log("its error Enoent");
                     res.send(initailCell);
                 }
             }

@@ -68,7 +68,7 @@ const App = () => {
               </svg>
             </div>
             <div className="logo-text">
-              <p>JScanvas</p>
+              <p>JSscribble</p>
             </div>
           </div>
         </div>

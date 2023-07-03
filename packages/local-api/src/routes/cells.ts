@@ -86,7 +86,7 @@ printArray(arr, n);`;
       if (isLocalApiError(err)) {
         if (err.code === "ENOENT") {
           await fs.writeFile(fullPath, JSON.stringify(initailCell), "utf-8");
-          console.log("its error Enoent");
+
           res.send(initailCell);
         }
       } else {

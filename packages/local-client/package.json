@@ -1,5 +1,5 @@
 {
-  "name": "@jscanvas/local-client",
+  "name": "@js-scribble/local-client",
   "version": "2.0.0",
   "publishConfig": {
     "access": "public"
@@ -62,5 +62,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "gitHead": "a2c7fae0c9684f8449785ff2775bb29d1e1fbcf2"
 }

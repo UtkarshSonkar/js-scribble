@@ -22,7 +22,7 @@ export const serve = (
     );
   } else {
     const packagePath = require.resolve(
-      "@jscanvas/local-client/build/index.html"
+      "@js-scribble/local-client/build/index.html"
     );
     app.use(express.static(path.dirname(packagePath)));
   }

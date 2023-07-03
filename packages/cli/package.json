@@ -1,5 +1,5 @@
 {
-  "name": "jscanvas",
+  "name": "js-scribble",
   "version": "2.0.0",
   "description": "",
   "bin": "dist/index.js",
@@ -20,10 +20,11 @@
     "@jscanvas/local-client": "^2.0.0"
   },
   "devDependencies": {
-    "@jscanvas/local-api": "^2.0.0",
+    "@js-scribble/local-api": "^2.0.0",
     "@types/node": "^20.3.2",
     "commander": "^11.0.0",
     "esbuild": "0.8.26",
     "typescript": "^5.1.6"
-  }
+  },
+  "gitHead": "a2c7fae0c9684f8449785ff2775bb29d1e1fbcf2"
 }
