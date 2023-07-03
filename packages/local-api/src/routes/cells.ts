@@ -72,7 +72,7 @@ let arr = [12, 11, 13, 5, 6];
 let n = arr.length;
 
 insertionSort(arr, n);
-printArray(arr, n);`;
+show(arr)`;
 
     const initailCell: Cell[] = [
       { content: markdownString, id: "123abc", type: "text" },
